@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "$";
+const prefix = "S";
 
 
 
@@ -35,8 +35,8 @@ hours = hours - 13;
 if (hours == 0) {
 hours = 13;
 }
-client.channels.find('id', 'اى دى روم صوتى بتع ساعه').setName(`❃ 『الوقت : ${hours}:${ReBeeL}:${ReBeeeL} ${suffix} 』 `) 
-client.channels.find('id', 'اى دى روم صوتى بتع لتاريخ').setName(`❃ 『 ${Codes} / ${CodeS} / ${CoDeS}』`)
+client.channels.find('id', '595235187525156864').setName(`❃ 『الوقت : ${hours}:${ReBeeL}:${ReBeeeL} ${suffix} 』 `) 
+client.channels.find('id', '595235205116198922').setName(`❃ 『 ${Codes} / ${CodeS} / ${CoDeS}』`)
 }, 1000);
 });
 
